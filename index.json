@@ -1,4 +1,10 @@
 [{
+    "title": "AAAI20 Papers",
+    "date": "",
+    "description": "",
+    "body": "Reinforcing an Image Caption Generator Using Off-Line Human Feedback https://arxiv.org/abs/1911.09753\n",
+    "ref": "/blog/aaai20/"
+  },{
     "title": "About",
     "date": "",
     "description": "Hugo, the world’s fastest framework for building websites",
