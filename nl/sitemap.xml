@@ -57,60 +57,6 @@
   </url>
   
   <url>
-    <loc>https://woolaowu.github.io/nl/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://woolaowu.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://woolaowu.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://woolaowu.github.io/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://woolaowu.github.io/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://woolaowu.github.io/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://woolaowu.github.io/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://woolaowu.github.io/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://woolaowu.github.io/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://woolaowu.github.io/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://woolaowu.github.io/nl/"
-                />
-  </url>
-  
-  <url>
     <loc>https://woolaowu.github.io/nl/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -161,6 +107,60 @@
                 rel="alternate"
                 hreflang="nl"
                 href="https://woolaowu.github.io/nl/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://woolaowu.github.io/nl/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://woolaowu.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://woolaowu.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://woolaowu.github.io/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://woolaowu.github.io/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://woolaowu.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://woolaowu.github.io/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://woolaowu.github.io/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://woolaowu.github.io/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://woolaowu.github.io/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://woolaowu.github.io/nl/"
                 />
   </url>
   
