@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Woolaowu&#39;s Blog</title>
-    <link>https://woolaowu.github.io/</link>
-    <description>Recent content on Woolaowu&#39;s Blog</description>
+    <title>AAAI on Woolaowu&#39;s Blog</title>
+    <link>https://woolaowu.github.io/tags/aaai/</link>
+    <description>Recent content in AAAI on Woolaowu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Feb 2021 15:15:07 +0100</lastBuildDate><atom:link href="https://woolaowu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2021 15:15:07 +0100</lastBuildDate><atom:link href="https://woolaowu.github.io/tags/aaai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AAAI20 Papers</title>
       <link>https://woolaowu.github.io/blog/aaai20/</link>
@@ -14,17 +14,6 @@
       
       <guid>https://woolaowu.github.io/blog/aaai20/</guid>
       <description>Name Link     Reinforcing an Image Caption Generator Using Off-Line Human Feedback https://arxiv.org/pdf/1911.09753   Reinforcement Learning of Risk-Constrained Policies in Markov Decision Processes https://ojs.aaai.org/index.php/AAAI/article/view/6531/6387   Deep Model-Based Reinforcement Learning via Estimated Uncertainty and Conservative Policy Optimization https://ojs.aaai.org/index.php/AAAI/article/download/6177/6033   Reinforcement Learning with Non-Markovian Rewards https://ojs.aaai.org/index.php/AAAI/article/download/5814/5670   Hierarchical Reinforcement Learning for Open-Domain Dialog https://ojs.aaai.org/index.php/AAAI/article/download/6400/6256   Copy or Rewrite: Hybrid Summarization with Hierarchical Reinforcement Learning https://ojs.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://woolaowu.github.io/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://woolaowu.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
     </item>
     
   </channel>
