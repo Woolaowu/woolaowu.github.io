@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://woolaowu.github.io/tags/2020/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <loc>https://woolaowu.github.io/tags/2021/</loc>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://woolaowu.github.io/tags/aaai/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://woolaowu.github.io/blog/aaai20/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <loc>https://woolaowu.github.io/blog/aaai21/</loc>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://woolaowu.github.io/blog/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://woolaowu.github.io/categories/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -79,12 +79,12 @@
   
   <url>
     <loc>https://woolaowu.github.io/categories/paper-collection/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://woolaowu.github.io/tags/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -139,7 +139,7 @@
   
   <url>
     <loc>https://woolaowu.github.io/</loc>
-    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+    <lastmod>2021-02-28T16:49:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -190,6 +190,16 @@
                 hreflang="en"
                 href="https://woolaowu.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://woolaowu.github.io/tags/2020/</loc>
+    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://woolaowu.github.io/blog/aaai20/</loc>
+    <lastmod>2021-02-26T15:15:07+01:00</lastmod>
   </url>
   
   <url>

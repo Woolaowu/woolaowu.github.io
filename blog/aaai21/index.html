@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>AAAI21 Papers - Woolaowu&#39;s Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.80.0" /><meta property="og:site_name" content="Woolaowu&#39;s Blog">
+  <meta property="og:title" content="AAAI21 Papers">
+  <meta property="og:description" content="AAAI21 papers regarding reinforcement learning.">
+  <meta property="description" content="AAAI21 papers regarding reinforcement learning.">
+  <meta property="og:url" content="https://woolaowu.github.io/blog/aaai21/">
+  <meta property="og:type" content="article">
+  
+    
+      <meta property="og:image" content="https://woolaowu.github.io/img/202002/jolyne2.jpeg">
+      <meta property="og:image:alt" content="">
+    
+  
+  <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Blog
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> Post</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+    
+      
+    
+      
+        <a href="/fr" lang="fr" class="nav no-lang link">Français (fr)</a>
+      
+    
+      
+        <a href="/pl" lang="pl" class="nav no-lang link">Polski (pl)</a>
+      
+    
+      
+        <a href="/pt" lang="pt" class="nav no-lang link">Português (pt)</a>
+      
+    
+      
+        <a href="/de" lang="de" class="nav no-lang link">Deutsche (de)</a>
+      
+    
+      
+        <a href="/es" lang="es" class="nav no-lang link">Española (es)</a>
+      
+    
+      
+        <a href="/zh-cn" lang="zh-cn" class="nav no-lang link">中文 (zh-cn)</a>
+      
+    
+      
+        <a href="/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
+    
+      
+        <a href="/ja" lang="ja" class="nav no-lang link">日本語 (ja)</a>
+      
+    
+      
+        <a href="/nl" lang="nl" class="nav no-lang link">Nederlands (nl)</a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=AAAI21%20Papers&amp;url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f&amp;title=AAAI21%20Papers" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f&amp;title=AAAI21%20Papers" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f&amp;description=AAAI21%20Papers" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="https://woolaowu.github.io/img/main/sunxiaochuan.jpg" class="circle" width="100" alt="Hugo Future Imperfect Slim" /></a>
+  <header>
+    <h1>Woolaowu</h1>
+  </header>
+  <main>
+    <p>儒雅随和</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+        <li><a href="//github.com/Woolaowu" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:woolaowu@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+  <div class="title">
+    
+      <h2><a href="/blog/aaai21/">AAAI21 Papers</a></h2>
+    
+    
+      <p>AAAI21 papers regarding reinforcement learning.</p>
+    
+  </div>
+  <div class="meta">
+    <time datetime="2021-02-28 16:49:00 &#43;0100 CET">February 28, 2021</time>
+    
+    <p>3-Minute Read</p>
+  </div>
+</header>
+
+    <div id="socnet-share">
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=AAAI21%20Papers&amp;url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f&amp;title=AAAI21%20Papers" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f&amp;title=AAAI21%20Papers" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f&amp;description=AAAI21%20Papers" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fwoolaowu.github.io%2fblog%2faaai21%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </div>
+    <div class="content">
+      <a href="/blog/aaai21/" class="image" style="--bg-image: url('https://woolaowu.github.io/img/202002/jolyne2.jpeg');">
+    <img class="" src="https://woolaowu.github.io/img/202002/jolyne2.jpeg" alt="">
+  </a>
+      <table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Robust Reinforcement Learning: A Case Study in Linear Quadratic Regulation</td>
+<td><a href="https://arxiv.org/pdf/2008.11592">https://arxiv.org/pdf/2008.11592</a></td>
+</tr>
+<tr>
+<td>Self-Supervised Attention-Aware Reinforcement Learning</td>
+<td><a href="https://www.aaai.org/AAAI21Papers/AAAI-1137.WuH.pdf">https://www.aaai.org/AAAI21Papers/AAAI-1137.WuH.pdf</a></td>
+</tr>
+<tr>
+<td>Hierarchical Reinforcement Learning for Integrated Recommendation</td>
+<td></td>
+</tr>
+<tr>
+<td>Reinforced History Backtracking for Conversational Question Answering</td>
+<td><a href="https://www.aaai.org/AAAI21Papers/AAAI-1260.QiuM.pdf">https://www.aaai.org/AAAI21Papers/AAAI-1260.QiuM.pdf</a></td>
+</tr>
+<tr>
+<td>Combining Reinforcement Learning with Lin-Kernighan-Helsgaun Algorithm for the Traveling Salesman Problem</td>
+<td><a href="https://arxiv.org/pdf/2012.04461">https://arxiv.org/pdf/2012.04461</a></td>
+</tr>
+<tr>
+<td>Learning to Reweight Imaginary Transitions for Model-Based Reinforcement Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>Advice-Guided Reinforcement Learning in a Non-Markovian Environment</td>
+<td><a href="https://people.mpi-sws.org/~neider/papers/AAAI2021.pdf">https://people.mpi-sws.org/~neider/papers/AAAI2021.pdf</a></td>
+</tr>
+<tr>
+<td>Content Masked Loss: Human-Like Brush Stroke Planning in a Reinforcement Learning Painting Agent</td>
+<td><a href="https://arxiv.org/pdf/2012.10043">https://arxiv.org/pdf/2012.10043</a></td>
+</tr>
+<tr>
+<td>Metrics and Continuity in Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/2102.01514">https://arxiv.org/pdf/2102.01514</a></td>
+</tr>
+<tr>
+<td>Semantic-Guided Reinforced Region Embedding for Generalized Zero-Shot Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>Synthesis of Search Heuristics for Temporal Planning via Reinforcement Learning</td>
+<td><a href="https://icaps20subpages.icaps-conference.org/wp-content/uploads/2020/10/PRL2020_paper_10.pdf">https://icaps20subpages.icaps-conference.org/wp-content/uploads/2020/10/PRL2020_paper_10.pdf</a></td>
+</tr>
+<tr>
+<td>Commission Fee Is Not Enough: A Hierarchical Reinforced Framework for Portfolio Management</td>
+<td><a href="https://arxiv.org/pdf/2012.12620">https://arxiv.org/pdf/2012.12620</a></td>
+</tr>
+<tr>
+<td>Lipschitz Lifelong Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/2001.05411">https://arxiv.org/pdf/2001.05411</a></td>
+</tr>
+<tr>
+<td>Exact Reduction of Huge Action Spaces in General Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/2012.10200">https://arxiv.org/pdf/2012.10200</a></td>
+</tr>
+<tr>
+<td>Visual Tracking via Hierarchical Deep Reinforcement Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>Adaptive Prior-Dependent Correction Enhanced Reinforcement Learning for Natural Language Generation</td>
+<td></td>
+</tr>
+<tr>
+<td>Sequential Generative Exploration Model for Partially Observable Reinforcement Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>Visual Comfort Aware-Reinforcement Learning for Depth Adjustment of Stereoscopic 3D Images</td>
+<td><a href="https://www.aaai.org/AAAI21Papers/AAAI-3727.KimHG.pdf">https://www.aaai.org/AAAI21Papers/AAAI-3727.KimHG.pdf</a></td>
+</tr>
+<tr>
+<td>Scheduling of Time-Varying Workloads Using Reinforcement Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>DEAR: Deep Reinforcement Learning for Online Advertising Impression in Recommender Systems</td>
+<td><a href="https://arxiv.org/pdf/1909.03602">https://arxiv.org/pdf/1909.03602</a></td>
+</tr>
+<tr>
+<td>Towards Effective Context for Meta-Reinforcement Learning: An Approach Based on Contrastive Learning</td>
+<td><a href="https://arxiv.org/pdf/2009.13891">https://arxiv.org/pdf/2009.13891</a></td>
+</tr>
+<tr>
+<td>Reinforcement Learning with Trajectory Feedback</td>
+<td><a href="https://arxiv.org/pdf/2008.06036">https://arxiv.org/pdf/2008.06036</a></td>
+</tr>
+<tr>
+<td>Encoding Human Domain Knowledge to Warm Start Reinforcement Learning</td>
+<td><a href="https://www.aaai.org/AAAI21Papers/AAAI-5167.SilvaA.pdf">https://www.aaai.org/AAAI21Papers/AAAI-5167.SilvaA.pdf</a></td>
+</tr>
+<tr>
+<td>GLIB: Efficient Exploration for Relational Model-Based Reinforcement Learning via Goal- Literal Babbling</td>
+<td><a href="https://rohanchitnis.com/papers/2021-AAAI-GLIB.pdf">https://rohanchitnis.com/papers/2021-AAAI-GLIB.pdf</a></td>
+</tr>
+<tr>
+<td>WCSAC: Worst-Case Soft Actor Critic for Safety-Constrained Reinforcement Learning</td>
+<td><a href="https://www.st.ewi.tudelft.nl/mtjspaan/pub/Yang21aaai.pdf">https://www.st.ewi.tudelft.nl/mtjspaan/pub/Yang21aaai.pdf</a></td>
+</tr>
+<tr>
+<td>Queue-Learning: A Reinforcement Learning Approach for Providing Quality of Service</td>
+<td><a href="https://arxiv.org/pdf/2101.04627">https://arxiv.org/pdf/2101.04627</a></td>
+</tr>
+<tr>
+<td>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</td>
+<td><a href="https://arxiv.org/pdf/1910.01741">https://arxiv.org/pdf/1910.01741</a></td>
+</tr>
+<tr>
+<td>Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition</td>
+<td></td>
+</tr>
+<tr>
+<td>Domain Adaptation in Reinforcement Learning via Latent Unified State Representation</td>
+<td><a href="https://arxiv.org/pdf/2102.05714">https://arxiv.org/pdf/2102.05714</a></td>
+</tr>
+<tr>
+<td>Reinforced Imitative Graph Representation Learning for Mobile User Profiling: An Adversarial Training Perspective</td>
+<td><a href="https://arxiv.org/pdf/2101.02634">https://arxiv.org/pdf/2101.02634</a></td>
+</tr>
+<tr>
+<td>Inverse Reinforcement Learning from Like-Minded Teachers</td>
+<td><a href="http://procaccia.info/wp-content/uploads/2020/01/irl.pdf">http://procaccia.info/wp-content/uploads/2020/01/irl.pdf</a></td>
+</tr>
+<tr>
+<td>FontRL: Chinese Font Synthesis via Deep Reinforcement Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>Coordination between Individual Agents in Multi-Agent Reinforcement Learning</td>
+<td></td>
+</tr>
+<tr>
+<td>A Deep Reinforcement Learning Approach to First-Order Logic Theorem Proving</td>
+<td><a href="https://arxiv.org/pdf/1911.02065">https://arxiv.org/pdf/1911.02065</a></td>
+</tr>
+<tr>
+<td>Reinforcement Learning Based Multi-Agent Resilient Control: From Deep Neural Networks to an Adaptive Law</td>
+<td></td>
+</tr>
+<tr>
+<td>DeepTrader: A Deep Reinforcement Learning Approach for Risk-Return Balanced Portfolio Management with Market Conditions Embedding</td>
+<td></td>
+</tr>
+<tr>
+<td>Reinforcement Learning with a Disentangled Universal Value Function for Item Recommendation</td>
+<td><a href="https://noterminus.gitee.io/image_bed/docs/Kai-Wang-AAAI2021.pdf">https://noterminus.gitee.io/image_bed/docs/Kai-Wang-AAAI2021.pdf</a></td>
+</tr>
+<tr>
+<td>The Value-Improvement Path: Towards Better Representations for Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/2006.02243">https://arxiv.org/pdf/2006.02243</a></td>
+</tr>
+<tr>
+<td>Sample Efficient Reinforcement Learning with REINFORCE</td>
+<td><a href="https://arxiv.org/pdf/2010.11364">https://arxiv.org/pdf/2010.11364</a></td>
+</tr>
+<tr>
+<td>Reinforcement Learning of Sequential Price Mechanisms</td>
+<td></td>
+</tr>
+<tr>
+<td>TAC: Towered Actor Critic for Handling Multiple Action Types in Reinforcement Learning for Drug Discovery</td>
+<td></td>
+</tr>
+<tr>
+<td>Learning with Safety Constraints: Sample Complexity of Reinforcement Learning for Constrained MDPs</td>
+<td><a href="https://arxiv.org/pdf/2008.00311">https://arxiv.org/pdf/2008.00311</a></td>
+</tr>
+<tr>
+<td>DeepSynth: Automata Synthesis for Automatic Task Segmentation in Deep Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/1911.10244">https://arxiv.org/pdf/1911.10244</a></td>
+</tr>
+<tr>
+<td>Inverse Reinforcement Learning with Explicit Policy Estimates</td>
+<td></td>
+</tr>
+<tr>
+<td>Mean-Variance Policy Iteration for Risk-Averse Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/2004.10888.pdf">https://arxiv.org/pdf/2004.10888.pdf</a></td>
+</tr>
+<tr>
+<td>Temporal-Logic-Based Reward Shaping for Continuing Reinforcement Learning Tasks</td>
+<td><a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/84600/AAAI21-jiang.pdf?sequence=2">https://repositories.lib.utexas.edu/bitstream/handle/2152/84600/AAAI21-jiang.pdf?sequence=2</a></td>
+</tr>
+<tr>
+<td>Online 3D Bin Packing with Constrained Deep Reinforcement Learning</td>
+<td><a href="https://arxiv.org/pdf/2006.14978">https://arxiv.org/pdf/2006.14978</a></td>
+</tr>
+<tr>
+<td>A General Offline Reinforcement Learning Framework for Interactive Recommendation</td>
+<td></td>
+</tr>
+<tr>
+<td>Combining Reinforcement Learning and Constraint Programming for Combinatorial Optimization</td>
+<td><a href="https://arxiv.org/pdf/2006.01610">https://arxiv.org/pdf/2006.01610</a></td>
+</tr>
+<tr>
+<td>Distributional Reinforcement Learning via Moment Matching</td>
+<td></td>
+</tr>
+<tr>
+<td>Non-Asymptotic Convergence of Adam-Type Reinforcement Learning Algorithms under Markovian Sampling</td>
+<td><a href="https://arxiv.org/pdf/2002.06286">https://arxiv.org/pdf/2002.06286</a></td>
+</tr>
+<tr>
+<td>Inverse Reinforcement Learning with Natural Language Goals</td>
+<td><a href="https://arxiv.org/pdf/2008.06924">https://arxiv.org/pdf/2008.06924</a></td>
+</tr>
+<tr>
+<td>Decentralized Policy Gradient Descent Ascent for Safe Multi-Agent Reinforcement Learning</td>
+<td><a href="https://ecse.rpi.edu/~chent18/aaai.pdf">https://ecse.rpi.edu/~chent18/aaai.pdf</a></td>
+</tr>
+<tr>
+<td>The Sample Complexity of Teaching by Reinforcement on Q-Learning</td>
+<td><a href="http://pages.cs.wisc.edu/~jerryzhu/pub/AAAI21TDRL.pdf">http://pages.cs.wisc.edu/~jerryzhu/pub/AAAI21TDRL.pdf</a></td>
+</tr>
+<tr>
+<td>Visual Transfer for Reinforcement Learning via Wasserstein Domain Confusion</td>
+<td><a href="https://arxiv.org/pdf/2006.03465">https://arxiv.org/pdf/2006.03465</a></td>
+</tr>
+<tr>
+<td>Reinforced Multi-Teacher Selection for Knowledge Distillation</td>
+<td><a href="https://arxiv.org/pdf/2012.06048">https://arxiv.org/pdf/2012.06048</a></td>
+</tr>
+<tr>
+<td>Mitigating Political Bias in Language Models through Reinforced Calibration</td>
+<td><a href="https://www.aaai.org/AAAI21Papers/AISI-8076.LiuR.pdf">https://www.aaai.org/AAAI21Papers/AISI-8076.LiuR.pdf</a></td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+    <footer>
+      <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/paper-collection/">Paper Collection</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/aaai/">AAAI</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/2021/">2021</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+    </footer>
+  </article>
+  
+    
+
+  
+  <div class="pagination">
+    
+    
+      <a href="/blog/aaai20/" class="button right"><span>AAAI20 Papers</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/blog/aaai21/" class="image" style="--bg-image: url('https://woolaowu.github.io/img/202002/jolyne2.jpeg');">
+    <img class="" src="https://woolaowu.github.io/img/202002/jolyne2.jpeg" alt="">
+  </a>
+        <header>
+          <h2><a href="/blog/aaai21/">AAAI21 Papers</a></h2>
+          <time class="published" datetime="2021-02-28 16:49:00 &#43;0100 CET">February 28, 2021</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/aaai20/" class="image" style="--bg-image: url('https://woolaowu.github.io/img/202002/zeppeli.jpg');">
+    <img class="" src="https://woolaowu.github.io/img/202002/zeppeli.jpg" alt="Zeppeli">
+  </a>
+        <header>
+          <h2><a href="/blog/aaai20/">AAAI20 Papers</a></h2>
+          <time class="published" datetime="2021-02-26 15:15:07 &#43;0100 CET">February 26, 2021</time>
+        </header>
+      </article>
+      
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Category</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/categories/paper-collection/">paper-collection<span class="count">2</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>This theme was developed for Hugo static site generator.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+        <li><a href="//github.com/Woolaowu" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:woolaowu@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    © 2021 Woolaowu&#39;s Blog
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.80.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.b4e669fa428a81defb8af0916c53f39cd1b8e0bbab22199c06f0b182907ba474.js" integrity="sha256-tOZp&#43;kKKgd77ivCRbFPznNG44LurIhmcBvCxgpB7pHQ="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

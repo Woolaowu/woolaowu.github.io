@@ -6,7 +6,16 @@
     <description>Recent content in Paper Collection on Woolaowu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Feb 2021 15:15:07 +0100</lastBuildDate><atom:link href="https://woolaowu.github.io/categories/paper-collection/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 16:49:00 +0100</lastBuildDate><atom:link href="https://woolaowu.github.io/categories/paper-collection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AAAI21 Papers</title>
+      <link>https://woolaowu.github.io/blog/aaai21/</link>
+      <pubDate>Sun, 28 Feb 2021 16:49:00 +0100</pubDate>
+      
+      <guid>https://woolaowu.github.io/blog/aaai21/</guid>
+      <description>Name Link     Robust Reinforcement Learning: A Case Study in Linear Quadratic Regulation https://arxiv.org/pdf/2008.11592   Self-Supervised Attention-Aware Reinforcement Learning https://www.aaai.org/AAAI21Papers/AAAI-1137.WuH.pdf   Hierarchical Reinforcement Learning for Integrated Recommendation    Reinforced History Backtracking for Conversational Question Answering https://www.aaai.org/AAAI21Papers/AAAI-1260.QiuM.pdf   Combining Reinforcement Learning with Lin-Kernighan-Helsgaun Algorithm for the Traveling Salesman Problem https://arxiv.org/pdf/2012.04461   Learning to Reweight Imaginary Transitions for Model-Based Reinforcement Learning    Advice-Guided Reinforcement Learning in a Non-Markovian Environment https://people.</description>
+    </item>
+    
     <item>
       <title>AAAI20 Papers</title>
       <link>https://woolaowu.github.io/blog/aaai20/</link>

@@ -6,22 +6,31 @@
     <description>Recent content in Tags on Woolaowu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Feb 2021 15:15:07 +0100</lastBuildDate><atom:link href="https://woolaowu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 16:49:00 +0100</lastBuildDate><atom:link href="https://woolaowu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2020</title>
-      <link>https://woolaowu.github.io/tags/2020/</link>
-      <pubDate>Fri, 26 Feb 2021 15:15:07 +0100</pubDate>
+      <title>2021</title>
+      <link>https://woolaowu.github.io/tags/2021/</link>
+      <pubDate>Sun, 28 Feb 2021 16:49:00 +0100</pubDate>
       
-      <guid>https://woolaowu.github.io/tags/2020/</guid>
+      <guid>https://woolaowu.github.io/tags/2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AAAI</title>
       <link>https://woolaowu.github.io/tags/aaai/</link>
-      <pubDate>Fri, 26 Feb 2021 15:15:07 +0100</pubDate>
+      <pubDate>Sun, 28 Feb 2021 16:49:00 +0100</pubDate>
       
       <guid>https://woolaowu.github.io/tags/aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020</title>
+      <link>https://woolaowu.github.io/tags/2020/</link>
+      <pubDate>Fri, 26 Feb 2021 15:15:07 +0100</pubDate>
+      
+      <guid>https://woolaowu.github.io/tags/2020/</guid>
       <description></description>
     </item>
     
